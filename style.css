@@ -1,0 +1,42 @@
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-size: 0.9rem;
+}
+#header{
+    display: flex;
+    /* 縦軸を真ん中に揃える */
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* ヘッダーの外の枠を綺麗に整える */
+    padding: 30px 4% 10px;
+    /* positionプロパティーで画面の上部にヘッダーを固定 */
+    position: fixed;
+    top: 0;
+}
+
+#header ul{
+    display: flex;
+    /* liタグの点を消す */
+    list-style: none;
+}
+
+#header ul li{
+    /* メニューの横幅の調整 */
+    margin: 0 0 0 150px;
+}
+
+#header-logo{
+    /* ヘッダーのサイズ調整 */
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+
+}
