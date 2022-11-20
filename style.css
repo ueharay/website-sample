@@ -12,8 +12,6 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    /* ヘッダーの外の枠を綺麗に整える */
-    padding: 30px 4% 10px;
     /* positionプロパティーで画面の上部にヘッダーを固定 */
     position: fixed;
     top: 0;
@@ -25,11 +23,6 @@ body{
     list-style: none;
 }
 
-#header ul li{
-    /* メニューの横幅の調整 */
-    margin: 0 0 0 150px;
-}
-
 #header-logo{
     /* ヘッダーのサイズ調整 */
     width: 200px;
@@ -38,5 +31,37 @@ body{
 a{
     text-decoration: none;
     list-style: none;
-
 }
+
+.nav-li{
+    padding: 80px 130px;
+}
+
+#li-en{
+    background-color: #F5F5F5;
+}
+
+#li-support{
+   background-color: #1D1C1C;
+}
+
+#mv{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+.circle-padding {
+    padding: 30px 0 0 0 ;
+  }
